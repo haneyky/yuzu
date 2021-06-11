@@ -1,0 +1,38 @@
+# Site settings
+title: 'Kylie Haney' # Your Title
+email: Haney.ann.kylie@gmail.com
+description: "I’m Kylie Haney, and I’m a young creative based in Oregon."
+author: "Kylie Haney"
+avatar: /assets/cute.jpeg
+image: /assets/open_graph.png
+# Build settings
+url: "https://Khaney.design" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: _scss
+  style: :compressed
+
+defaults:
+  - scope:
+      path: "assets/images/fircons"
+    values:
+      image: true
+  
+collections:
+  datalist:
+    relative_directory: 'resources'
+    output: true
+    permalink: resources/:collection/:name
+  works:
+    output: true
+    permalink: :collection/:name
+    values:
+      order: 999
+    
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-menus
+  - jekyll-seo-tag

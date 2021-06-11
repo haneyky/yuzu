@@ -1,0 +1,113 @@
+
+p.tocHeader, .blog .flex p.header {
+    font-size: 80%;
+    font-weight: 600;
+    margin-top: 40px !important;
+}
+#markdown-toc {
+    padding: 16px var(--padding-l) 0;
+
+    li {
+        padding: 16px 0;
+        border-top: 1px solid var(--ink-1);
+        list-style: decimal-leading-zero;
+        list-style-position: inside;
+        // display: flex;
+        // align-items: center;
+        a {
+            color: var(--ink-7);
+            font-weight: 400;
+            width: 100%;
+        }
+        a::after {
+            content: "↓";
+            float: right;
+        }
+    }
+    li:last-child{
+        border-bottom: 1px solid var(--ink-1);
+    }
+
+}
+.fab {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 2;
+    background: var(--ink-0);
+    border: 1px solid var(--ink-2);
+    color: var(--ink-7);
+    
+    // height: 48px;
+    transition-timing-function: cubic-bezier(.68,-.55,.265,1.55);
+    transition-duration: .2s;
+    width: initial;
+    border-radius: 200px;
+    padding: 12px 24px;
+    font-size: 14px;
+    margin: 0;
+    margin-right: 16px;
+    &:hover {
+        transform: scale(1.1);
+        outline: none;
+        background-color: var(--c-primary);
+        border-color: var(--c-primary-xdark);
+        color: var(--c-primary-2xdark);
+    }
+}
+
+.blog {
+    margin-bottom: 125px;
+    header {
+        text-align: center;
+        p {
+            padding: 16px;
+        }
+    }
+
+    p, small, center, figure, h1, h2, h3, h4, h5, h6, ul, .flex {
+        max-width: 720px;
+        margin: auto;
+        padding: 32px var(--padding-l) 0;
+        position: relative;
+        line-height: 1.88;
+    }
+    .flex p {
+        padding: 0;
+    }
+
+
+    :has( img ) {
+        background: red;
+        max-width: 1000px;
+    }
+    img {
+        object-fit: cover;
+        width: 100%;
+        margin: 32px 0;
+    }
+    .image {
+        max-width: 1000px;
+    }
+    .fullWidth {
+        width: 100%;
+        max-width: 100%;
+    }
+    h1 {
+        font: 300 64px/64px Graphik, system-ui, sans-serif;
+    }
+    h2 {
+        font: 400 var(--fontSize-xl)/var(--lineHeight-xl);
+        padding-top: 125px;
+    }
+    h3 {
+        padding-top: 125px;
+        font-family: Graphik, sans-serif;
+        font-weight: 400;
+        font-size: var(--fontSize-l);
+        line-height: var(--lineHeight-l);
+    }
+    img + img {
+        margin: 8px 0;
+    }
+}

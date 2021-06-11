@@ -1,0 +1,51 @@
+<section id="work">
+    <div class="matcha-content">
+            <div class="stickyHeader">
+                <h2 class="content ink8 mb4 mt2">Recent Projects</h2>
+            </div>
+            {% for work in site.works %}
+            {% if work.featured_work == false %}
+            <article class="pt3 pb2 preview" data-aos="fade-right" data-aos-delay="150" data-target="{{forloop.index}}">
+                <img class="h-desktop mb2" src="{{ work.cover_image}}" alt="">
+                <div class="content">
+                    <a href="{{ work.url }}" class="text-decoration-none arrowLink">
+                        <h3 class="t2 ink8">
+                            {{ work.title }}
+                            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 4.7a.667.667 0 00-.667-.667L6 4a.667.667 0 000 1.333h3.707L4.193 10.86a.667.667 0 00.217 1.093.668.668 0 00.73-.146l5.527-5.527V10A.667.667 0 0012 10V4.7z">
+                                </path>
+                            </svg>
+                        </h3>
+                    </a>
+                    <p class="ink4">{{ work.description }}</p>
+                    <p class="ink3">{{ work.context }}</p>
+                    {% if work.collaborator.size > 1 %}
+                    <p class="pt3 pb0 mb1 ink3">Team</p>
+                    <ul class="list-reset mt0">
+                        {% for collaborators in work.collaborator %}
+                        {% if site.data.team_member[collaborators.item] %}
+                        {% assign team = site.data.team_member[collaborators.item] %}
+                        <li>
+                            {% include team_member.html %}
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </article>
+            {% endif %}
+
+            {% endfor %}
+            {% include footer.html %}
+        </div>
+    <div class="leftSideImages" data-aos="zoom-in-up">
+        {% for work in site.works %}
+        {% if work.featured_work == false %}
+        <img class="preview__img" src="{{work.cover_image}}" alt="" id="{{forloop.index}}">
+        {% endif %}
+        {% endfor %}
+        <img class="preview__img" src="/assets/images/uhds_thumb.png" id="9a" alt="">
+</div>
+</section>

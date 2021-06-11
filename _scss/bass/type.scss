@@ -1,0 +1,80 @@
+// typescale
+
+.t00 { font-size: var(--t00) }
+.t0 { font-size: var(--t0) }
+.t1 { font-size: var(--t1) }
+.t2 { font-size: var(--t2) }
+.t3 { font-size: var(--t3) }
+.t4 { font-size: var(--t4) }
+.t5 { font-size: var(--t5) }
+.t6 { font-size: var(--t6) }
+
+// typography
+
+.font-family-inherit { font-family: 'system-ui', sans-serif }
+.font-size-inherit { font-size: inherit }
+.text-decoration-none { text-decoration: none }
+
+.bold    { font-weight: var(--bold-font-weight, bold) }
+.regular { font-weight: normal }
+.italic  { font-style: italic }
+.caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); font-weight: 500;}
+
+.left-align   { text-align: left }
+.center       { text-align: center }
+.right-align  { text-align: right }
+.justify      { text-align: justify }
+
+.nowrap { white-space: nowrap }
+.break-word { word-wrap: break-word }
+
+.line-height-1 { line-height: var(--line-height-1) }
+.line-height-2 { line-height: var(--line-height-2) }
+.line-height-3 { line-height: var(--line-height-3) }
+.line-height-4 { line-height: var(--line-height-4) }
+
+.list-style-none { list-style: none }
+.underline { text-decoration: underline }
+a.hover-underline:hover {
+  text-decoration: underline;
+}
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+p {
+  font-size: var(--t3);
+  line-height: var(--line-height-3);
+  color: var(--ink3);
+}
+
+.subtleHeader, .date {
+  font-size: var(--t4);
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--ink-5);
+  text-transform: uppercase;
+}
+
+small {
+  line-height: 1.5;
+}
+.date {
+  font-size: var(--t4);
+  text-transform: initial;
+  color: var(--ink-6);
+  font-weight: 500;
+}
+
+.inline-block {
+  display: inline-block;
+}

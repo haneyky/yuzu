@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<video id="intro" class="mb4 fullbleed" width="1280px" class="spaceBottom-xl" style="width: 100%;" autoplay  muted>
+    <source class="contain" src="/assets/video/about.mp4" type="video/mp4">
+    <source class="contain" src="/assets/video/about2.webm" type="video/mp4">
+</video>
+
+  {{ content }}
+
+  <div class="mt3">
+
+  {% capture label %} {{page.primary_button[0].label}} {% endcapture %}
+  {% capture url %} {{page.primary_button[0].url}} {% endcapture %}
+  {% include button.liquid label=label url=url %}
+
+  {% capture label %} {{page.secondary_button[0].label}} {% endcapture %}
+  {% capture url %} {{page.secondary_button[0].url}} {% endcapture %}
+  {% include button.liquid label=label url=url %}
+
+</div>
+
+  <section class="container">
+      <h2 class="subtleHeader mt4 pt4 pb2 ink6">Past Experiences</h2>
+      {% for list in page.list %}
+          {% capture title %} {{list.title}} {% endcapture %}
+          {% capture copy %} {{list.copy}} {% endcapture %}
+          {% capture thumbnail %} {{list.thumbnail}} {% endcapture %}
+          {% capture url %} {{list.url}} {% endcapture %}
+          {% include listItem.liquid title=title copy=copy thumbnail=thumbnail url=url %}
+      {% endfor %}
+  </section> 

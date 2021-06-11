@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html id="top" lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="icon" href="{{site.url}}/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site.url}}/assets/favicon.png">
+  <link rel="apple-touch-icon" href="{{site.url}}/assets/apple-touch-icon.png">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% seo %}
+  {% include analytics.html %}
+  <link rel="stylesheet" href="{{ "assets/css/app.css" | relative_url }}">
+
+</head>
+
+<body>
+  <main id="content">
+    <img id="mobileCover" src="{{page.post_image}}" alt="">
+    <section id="work">
+      <div class="matcha-content">
+        <div class="simpleContent mt4 pt4">
+          {% include nav.html %}
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </div>
+      <div class="leftSideImages">
+        <img class="hide-mobile matcha-img img-fixed" src="{{ page.cover_image }}" alt="">
+        {% for side_images in page.side_image %}
+        <img class="hide-mobile matcha-img img-fixed" data-aos="fade" data-aos-anchor="#{{side_images.trigger | replace: ' ', '-'}}"
+          src="{{ side_images.image }}" alt="{{ side_images.alt }}">
+        {% endfor %}
+      </div>
+    </section>
+    <script src="../logic/aos.js"></script>
+    <script src="../logic/splide.js"></script>
+    <script src="../logic/mediumZoom.js"></script>
+    <script>
+      AOS.init({ duration: 1000, anchorPlacement: 'top' })
+      mediumZoom(document.querySelectorAll('img'), {
+        margin: 30,
+        background: "rgba(0,0,0,.6)",
+      });
+      new Splide('.splide', {
+        arrows: false,
+        gap: '2rem',
+        autoHeight: true,
+        padding: {
+          right: '3rem',
+        },
+      }).mount();
+    </script>
+  </main>
+</body>
+
+</html>

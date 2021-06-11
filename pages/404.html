@@ -1,0 +1,81 @@
+---
+permalink: /404.html
+---
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Opps. {{site.title}}</title>
+  <style>
+    :root {
+      --text: #1c1c2b;
+      --secondary: #e6e7ef;
+      --background: #f7f7fa;
+    }
+    html {
+      background: var(--background);
+      color: var(--text);
+      font-family: 'metro sans', system-ui;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+    }
+    a {
+      display: flex;
+      flex-wrap: wrap;
+      text-decoration: none;
+      color: inherit;
+      padding: 1.5rem 2.75rem;
+      margin: 1rem;
+    }
+    a:hover {
+      background: var(--secondary);
+    }
+    p {
+      margin: .45rem 0  ;
+    }
+    .big {
+      font-size: 40px;
+    }
+    small {
+      font-size: 14px;
+      margin-top: 0;
+      opacity: .7;
+      font-weight: 400;
+    }
+    .line {
+      max-height: 90%;
+      min-width: 2px;
+      background: var(--secondary);
+      margin: 0 1.5rem;
+    }
+
+    @media only screen and (max-width: 680px) {
+      .line {
+        display: none;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f7f7fa;
+        --secondary: hsl(243, 20%, 22%);
+        --background:#1c1c2b;
+      }
+    }
+    
+  </style>
+</head>
+<body class="anime reveal">
+  <a href="/" class="">
+    <p class="big">404</p>
+    <div class="line"></div>
+    <div>
+      <p>Oops. Looks like something went wrong.</p>
+      <small>Click here to return home.</small>
+    </div>
+  </a>
+</body>
+</html>

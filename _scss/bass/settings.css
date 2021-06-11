@@ -1,0 +1,116 @@
+:root {
+/* colors */
+  --ink-0: #fff;
+  --ink-1: #f5f5f5;
+  --ink-2: #c4c4c4;
+  --ink-3: #555;
+  --ink-4: #191919;
+  --ink-5: #000;
+  --cherry: #ec0c41;
+  --matcha: #32ae85;
+  --fade: linear-gradient(0deg,rgba(255, 255, 255, 0), var(--ink-0), var(--ink-0) 80%);
+
+/* shadows */
+  --longShadow: 0px 76px 80px rgba(0, 0, 0, 0.05), 0px 41.9904px 56.2739px rgba(0, 0, 0, 0.0503198), 0px 23.3207px 32.0013px rgba(0, 0, 0, 0.0417275), 0px 12.687px 17.197px rgba(0, 0, 0, 0.035), 0px 6.26795px 8.22435px rgba(0, 0, 0, 0.0282725), 0px 2.33133px 2.87631px rgba(0, 0, 0, 0.0196802);
+
+ /* border  */
+  --border-width: 1px;
+  --border-radius: 2px;
+
+/* spacing */
+    --space-1: .5rem;
+    --space-2: 1rem;
+    --space-3: 2rem;
+    --space-4: 4rem;
+/* z-index */
+    --z1: 1;
+    --z2: 2;
+    --z3: 3;
+    --z4: 4;
+
+/* type */
+    --line-height-1: 1;
+    --line-height-2: 1.25;
+    --line-height-3: 1.5;
+    --line-height-4: 1.75;
+    --caps-letter-spacing: .05em;
+    --bold-font-weight: 500;
+    --t00: 3.2rem;
+    --t0: 3rem;
+    --t1: 2rem;
+    --t2: 1.75rem;
+    --t3: 1.45rem;
+    --t4: 1.2rem;
+    --t5: 1rem;
+    --t6: .875rem;
+}
+
+@font-face {
+  font-family: 'Metro sans';
+  src: url('../font/metro-sans-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Metro sans';
+  src: url('../font/metro-sans-book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Metro sans';
+  src: url('../font/metro-sans-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Metro sans';
+  src: url('../font/metro-sans-semi-bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+    /* font-size: 18px; */
+    font-family: 'Metro Sans','system-ui', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: 400;
+    margin: 0;
+    background-color: var(--ink-0);
+    color: var(--ink-3)
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ink-5);
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid var(--ink-3);
+  margin: 1rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+
+    --ink-5: #E2F0F6;
+    --ink-4: #B6D8E8;
+    --ink-3: #a2bdca;
+    --ink-2: #444c55;
+    --ink-1: #151e27;
+    --ink-0: #0D151C;
+    --matcha: #34febb;
+    --fade: linear-gradient(0deg,rgb(21, 30, 39, 0), var(--ink-0), var(--ink-0) 80%);
+    transition: background-color 150ms ease-in-out;
+  }
+}

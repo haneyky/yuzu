@@ -1,0 +1,22 @@
+
+
+/* navigation 
+------------------------*/
+nav, .navContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+}
+
+nav {
+  height: auto;
+
+  a p:first-child:hover {
+    color: var(--c-primary);
+  }
+
+  p {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,415 @@
+---
+title: hues color generator
+footer: false
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hues</title>
+    <meta name="description" content="Hues is a simple color palette generator.">
+    <meta property="og:description" content="Hues is a simple color palette generator.">
+    <meta property="og:site_name" content="Hues">
+    <meta property="og:title" content="Hues">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hues">
+    <meta name="twitter:description" content="Hues is a simple color palette generator.">
+    <link rel=icon href="{{site.url}}/assets/favicon.svg">
+  <link rel=icon href="{{site.url}}/assets/favicon.png">
+  <link rel=mask-icon href="{{site.url}}/assets/images/favicon/mask-icon.svg" color="#24DAAE">
+    <style>
+      :root {
+            --background: #0C131C;
+            --color: #fff;
+        }
+html {
+  width: 100%;
+}
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--color);
+}
+#app {
+  width: 100%;
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 24px;
+  box-sizing: border-box;
+  font: 400 calc(10px + 1vw)/1.3 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+svg {
+  height: 32px;
+  width: 32px;
+  fill: var(--color);
+  margin-bottom: 8px;
+  opacity: .8;
+}
+
+#spectrumBar {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  width: 100%;
+  margin-bottom: 64px;
+}
+#spectrumBar div {
+  height: 16px;
+  margin: 16px 4px;
+  cursor: pointer;
+  transform-origin: center;
+  transition: flex 200ms cubic-bezier(.68,-.55,.265,1.55);
+}
+.userControls {
+  display: flex;
+align-items: center;
+}
+.userInput {
+  flex: 1;
+}
+
+#baseInput {
+  display: block;
+  border: none;
+  width: 100%;
+  text-rendering: auto;
+  color: -internal-light-dark-color(black,var(--color));
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  font: 400 36px system-ui,sans-serif;
+  color: inherit;
+  line-height: 1;
+  background-color: transparent;
+  -webkit-appearance: textfield;
+  width: 100%;
+  border-width: 0;
+  margin: 0;
+  margin: 16px 0 40px;
+  border-bottom: 1px solid transparent;
+}
+#baseInput:focus, #baseInput:active {
+  border-bottom: 1px solid #228be6;
+  outline: 0;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+#colorSwatch, #greySwatch {
+  display: flex;
+}
+
+#colorSwatch div, #greySwatch div {
+  height: 174px;
+  flex-grow: 1;
+  border: 2px solid var(--background);
+  animation: slide-up 0.4s ease;
+  transform-origin: center;
+  transition: flex 600ms cubic-bezier(.68,-.55,.265,1.55);
+  display: grid;
+  margin: 16px 0;
+  position: relative;
+}
+#colorSwatch div p:last-child, #greySwatch div p:last-child {
+  font: 500 12px/1.2 system-ui, sans-serif;
+  letter-spacing: 1px;
+  vertical-align: bottom;
+  color: transparent;
+  position: absolute;
+  bottom: -24px;
+  left: 4px;
+  margin: 0;
+  transform: translatey(6px);
+  align-self: end;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color 380ms ease-in-out;
+}
+#colorSwatch div p, #greySwatch div p {
+  font: 500 12px/1.2 system-ui, sans-serif;
+  letter-spacing: 1px;
+  color: transparent;
+  position: absolute;
+  right: 4px;
+  bottom: -24px;
+  margin: 0;
+  transform: translatey(6px);
+  transition: color 380ms ease-in-out;
+}
+#colorSwatch div:hover p, #greySwatch div:hover p {
+  color: var(--color);
+}
+#colorSwatch div:hover, #greySwatch div:hover {
+  flex-grow: 4.5;
+}
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: scaley(.2) translatey(20);
+  }
+  60% {
+    opacity: .7;
+    transform: scaley(1) translatey(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translatey(0);
+  }
+}
+#colorSwatch div:nth-child(1), #greySwatch div:nth-child(1) {
+  animation-delay: 50ms;
+} 
+#colorSwatch div:nth-child(2), #greySwatch div:nth-child(2) {
+  animation-delay: 100ms;
+} 
+#colorSwatch div:nth-child(3) {
+  animation-delay: 150ms;
+} 
+#colorSwatch div:nth-child(4) {
+  animation-delay: 200ms;
+} 
+#colorSwatch div:nth-child(5) {
+  animation-delay: 250ms;
+} 
+#colorSwatch div:nth-child(6){
+  animation-delay: 300ms;
+}
+#colorSwatch div:nth-child(7){
+  animation-delay: 350ms;
+}
+#colorSwatch div:nth-child(8){
+  animation-delay: 400ms;
+}
+#colorSwatch div:nth-child(9){
+  animation-delay: 450ms;
+}
+#colorSwatch div:nth-child(10){
+  animation-delay: 500ms;
+}
+
+@media only screen and (max-width: 600px) {
+  #spectrumBar {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #colorSwatch, #greySwatch {
+    flex-direction: column;
+  }
+  #colorSwatch div, #greySwatch div {
+    flex: auto;
+    margin-bottom: 32px;
+  }
+  #colorSwatch div:hover, #greySwatch div:hover {
+  flex-grow: 4.5;
+}
+#colorSwatch div p:last-child, #greySwatch div p:last-child {
+  color: var(--color);
+  position: absolute;
+  bottom: -24px;
+  left: 4px;
+}
+#colorSwatch div p, #greySwatch div p {
+  color: var(--color);
+  position: absolute;
+  bottom: -24px;
+  right: 4px;
+}
+}
+
+[data-theme="dark"] {
+          --background: #fff;
+          --color: #0c131c;
+}
+[data-theme="dark"] .moon {
+  display: block;
+}
+[data-theme="dark"] #colorSwatch div p:nth-child(2) {
+  display: none;
+}
+#colorSwatch div p:first-child { 
+    display: none;
+  }
+  [data-theme="dark"] #colorSwatch div p:first-child {
+  display: inline;
+}
+[data-theme="dark"] .sun {
+  display: none;
+}
+body .moon {
+  display: none;
+}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.3/chroma.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <section class="userControls">
+      <!--     <div id="baseSwatch"></div> -->
+          <div class="userInput">
+            <label for="">base color</label>
+            <input type="text" id="baseInput" placeholder="#07c" onkeyup="isValid()">
+          </div>
+          <div class="theme-switch-wrapper">
+            <label id="themeSwitch" for="checkbox">
+                <input type="checkbox" id="checkbox" style="display: none;" />
+                <svg class="sun"viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-4ym8mv"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg class="moon"viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-4ym8mv"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </label>
+        </div>
+        </section>
+          <div id="spectrumBar"></div>
+          <h3 id="colorName"></h3>
+          <div id="colorSwatch">
+            <p style="text-align: center; width: 100%; margin-top: 10vh; font-weight: 400; letter-spacing: 1px; font-size: 16px">Click a color above for more colors</p>
+          </div>
+          </div>
+          
+      <script>
+document.getElementById('themeSwitch').addEventListener('change', function(event){
+  (event.target.checked) ? document.body.setAttribute('data-theme', 'dark') : document.body.removeAttribute('data-theme');
+});
+
+
+          let base = "#07c";
+let baseHsl = chroma(base).hsl();
+let spectrum = [];
+const names = [  
+  'Red',      // 0
+  'Orange',   // 30
+  'Yellow',   // 60
+  'Lime',     // 90
+  'Green',    // 120
+  'Teal',     // 150
+  'Cyan',     // 180
+  'Blue',     // 210
+  'Indigo',   // 240
+  'Violet',   // 270
+  'Magenta',  // 300
+  'Rose',     // 330
+  'Red',      // 360
+]
+const lums = [9,8,7,6,5,4,3,2,1,0]
+.map(n => n + .5)
+.map(n => n / 10)
+
+function getSpectrum() {
+  const step = 30;
+  const bar = document.getElementById('spectrumBar')
+  //remove all children
+  while (bar.firstChild) {
+    bar.firstChild.remove();
+  }
+  // generate children
+   
+   let parentElement = document.getElementById('spectrumBar')
+   for (let i = 0; i < 12; i++) {
+     spectrum[i] = chroma.hsl( Math.floor( baseHsl[0] + (i * 30) % 360 ), baseHsl[1], baseHsl[2]).hex();
+     let newSpec = document.createElement('div')
+     newSpec.setAttribute("style", "background: " + spectrum[i] + ";")
+     newSpec.setAttribute("onclick", "getShades(" + "'" + spectrum[i] + "'" + ", "+ i +")")
+     parentElement.appendChild(newSpec)
+   }
+    spectrum[12] = chroma(base).desaturate(5).luminance(.025).hex()
+    let newSpec = document.createElement('div')
+    newSpec.setAttribute("style", "background: " + spectrum[12] + ";")
+    newSpec.setAttribute("onclick", "createGreys()")
+    parentElement.appendChild(newSpec)
+}
+
+var createShades = function createShades(hex) {
+  return lums.map(function (lums) {
+    return chroma(hex).luminance(lums).hex();
+  });
+};
+
+function createGreys() {
+  const greyPalette = document.getElementById('colorSwatch')
+  const desat = chroma(base).desaturate(5);
+  const lights = [0.95, 0.85, 0.75, 0.65, 0.55, 0.45, 0.25, 0.1, 0.05, 0.025]
+  const greys = [];
+  //remove all children element
+  while (greyPalette.firstChild) {
+    greyPalette.firstChild.remove();
+  }
+  for (let i = 0; i < 10; i++) {
+    greys[i] = chroma(desat).luminance(lights[i]).hex()
+    let newSwatch = document.createElement('div')
+    let swatchName = document.createElement('p')
+    let contrastLight = document.createElement('p')
+    let contrastDark = document.createElement('p')
+    newSwatch.setAttribute("style", "background: " + greys[i])
+    contrastLight.innerText = chroma.contrast(greys[i], 'white').toFixed(2)
+    contrastDark.innerText = chroma.contrast(greys[i], 'black').toFixed(2)
+    swatchName.innerText = greys[i];
+    newSwatch.appendChild(contrastLight);
+    newSwatch.appendChild(contrastDark);
+    greyPalette.appendChild(newSwatch)
+  }
+  document.getElementById('colorName').innerText = "Grey"
+  console.log(greys)
+}
+
+function getShades(hue, index) {
+  const palette = document.getElementById('colorSwatch')
+  const shades = createShades(hue);
+  let num = Math.round((chroma(hue).hsl()[0] - 2) / 30)
+
+  document.getElementById('colorName').innerText = names[num]
+  //remove all children element
+  while (palette.firstChild) {
+    palette.firstChild.remove();
+  }
+  
+  for (let i = 0; i < 10; i++) {
+    let newSwatch = document.createElement('div')
+    newSwatch.setAttribute("style", "background: " + shades[i]);
+    let swatchName = document.createElement('p')
+    let contrastLight = document.createElement('p')
+    let contrastDark = document.createElement('p')
+    contrastLight.innerText = chroma.contrast(shades[i], 'white').toFixed(2)
+    contrastDark.innerText = chroma.contrast(shades[i], 'black').toFixed(2)
+    swatchName.innerText = shades[i];
+    newSwatch.appendChild(contrastLight);
+    newSwatch.appendChild(contrastDark);
+    newSwatch.appendChild(swatchName);
+    palette.appendChild(newSwatch)
+  }
+}
+
+function isValid() {
+  let hex = document.getElementById('baseInput')
+  let preview = document.getElementById('baseSwatch')
+  if (chroma.valid(hex.value) === true) {
+    base = hex.value;
+    baseHsl = chroma(base).hsl();
+    // preview.setAttribute('style', 'background: ' + base)
+    hex.setAttribute('style', 'color: ' + base)
+    getSpectrum()
+    // createGreys()
+  }
+}
+
+function copy(e) {
+  console.log(chroma(e.target.style.background).hex())
+  var text = chroma(e.target.style.background).hex();
+  console.log(text)
+navigator.clipboard.writeText(text).then(function() {
+  console.log('Async: Copying to clipboard was successful!');
+}, function(err) {
+  console.error('Async: Could not copy text: ', err);
+});
+}
+
+getSpectrum()
+// createGreys()
+// getShades()
+// createGreys()
+      </script>
+</body>
+</html>

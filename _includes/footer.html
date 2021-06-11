@@ -1,0 +1,19 @@
+<footer>
+    <ul class="list-reset pt4 pb4">
+      <li class="inline-block mr2 p1">
+        <a href="#top" class="pt3 pb3 text-decoration-none center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm1 10h3l-4-4-4 4h3v4h2v-4z"/></svg>
+          <!-- <svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M43.3314 13L43.3314 22.1944L20.6884 33.0112L20.6884 24.3578L43.3314 13Z"/>
+              <path d="M20.6884 37.879H30.4234V50.8591L20.6884 46.5324V37.879Z"/>
+              <path d="M43.2141 26.5215L43.2141 35.7159L20.6883 46.5324L20.6883 37.879L43.2141 26.5215Z"/>
+          </svg> -->
+      </a>
+      </li>
+      {% for link in site.data.navigation %}
+      <li class="inline-block mr2 p1">
+        <a href="{{link.url}}" class="text-decoration-none t3">{{link.page}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+</footer>

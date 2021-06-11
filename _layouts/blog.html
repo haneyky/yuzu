@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{page.title}}. {{site.title}}</title>
+  <link rel="icon" href="{{site.url}}/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site.url}}/assets/favicon.png">
+  <link rel="apple-touch-icon" href="{{site.url}}/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="{{site.url}}/assets/css/app.css">
+  <link rel="stylesheet" href="{{site.url}}/assets/css/glide.core.min.css">
+  <link rel="stylesheet" href="{{site.url}}/assets/css/glide.theme.css">
+  {% seo %}
+  {% include analytics.html %}
+</head>
+
+<body>
+  <!-- <a href="#content" id="skipNav" tabindex="0">Skip to Content</a> -->
+  <main id="content" class="contentGrid">
+    {% include nav.html %}
+    <header class="title mb4 pb3">
+      <h1> {{ page.description }} </h1>
+      <p class="byline t3">
+        {% for contribution in page.contribution%}
+          {{ contribution.item }} 
+          {% if forloop.last %}{% else %} • {% endif %}
+        {% endfor %}
+      </p>
+    </header>
+    <img class="fullBleed noBorders mb4" src="{{ page.post_image }}" alt="{{ page.title }}">
+    {{content}}
+    {% include footer.html %}
+  </main>
+</body>
+</html>

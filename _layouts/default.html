@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html id="top" lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="icon" href="{{site.url}}/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{site.url}}/assets/favicon.png">
+  <link rel="apple-touch-icon" href="{{site.url}}/assets/apple-touch-icon.png">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "assets/css/app.css" | relative_url }}">
+  {% seo %}
+  {% include analytics.html %}
+</head>
+<body>
+  <main id="content">
+    <section class="matcha-work">
+      <div class="matcha-content arrowRow">
+        <div class="content">
+          {% include nav.html %}
+          <p class="ink5 t2 bold" data-aos="fade-right">
+            {{ page.description }}
+          </p>
+          <div data-aos="fade-right" data-aos-delay="150">
+            {{ content }}
+          </div>
+          <ul class="pt1 list-reset mt0" data-aos="fade-right" data-aos-delay="300">
+            {% for featuredlinks in page.featuredlinks %}
+            <li class="inline-block mr1">
+              <p>
+            <a class="matcha mr3 text-decoration-none arrowLink bold" href="{{ featuredlinks.url }}">{{
+              featuredlinks.link }}</a>
+            </p>
+            </li>
+            {% endfor %}
+            </ul>
+        </div>
+        <a href="#work" class="scroll-arrow">
+          <svg class="scroll-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" />
+          </svg>
+        </a>
+      </div>
+      {% for work in site.works %}
+      {% if work.featured_work == true %}
+        <div class="hide-mobile matcha-featureWork">
+          <img class="matcha-img hide-mobile" src="{{page.side_image}}" alt="">
+        </div>
+      {% endif %}
+      {% endfor %}
+      
+    </section>
+
+{% include workSection.html %}
+    
+  </main>
+  <script src="logic/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      anchorPlacement: 'top',
+    })
+  </script>
+  <script>
+    var Preview = (function () {
+      var s;
+
+      return {
+        settings: {
+          img: document.getElementsByClassName('preview__img'),
+          post: document.getElementsByClassName('preview')
+        },
+
+        init: function () {
+          s = this.settings;
+          this.display();
+          this.mouseenter();
+        },
+
+        display: function () {
+          if (s.img.length) {
+            [].forEach.call(s.img, function (img) {
+              img.style.opacity = '0';
+            });
+            s.img[0].style.opacity = '1';
+          }
+        },
+
+        mouseenter: function () {
+          if (s.post.length) {
+            var currentIdx = 0,
+              prevIdx = currentIdx;
+
+            [].forEach.call(s.post, function (preview, idx) {
+              preview.addEventListener('mouseenter', function () {
+                prevIdx = currentIdx;
+                currentIdx = idx;
+
+                if (prevIdx !== currentIdx) {
+                  s.img[prevIdx].style.opacity = '0';
+                  s.img[currentIdx].style.opacity = '1';
+                }
+              });
+            });
+          }
+        }
+      }
+    })();
+
+    document.addEventListener('DOMContentLoaded', function () {
+      Preview.init();
+    });
+  </script>
+</body>
+
+</html>

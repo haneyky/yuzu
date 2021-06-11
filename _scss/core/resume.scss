@@ -1,0 +1,44 @@
+#resume {
+    h1, h2 {
+        font-size: 22px;
+        margin-top: 8px;
+        // text-align: right;
+    }
+    p {
+        color: var(--ink-7);
+        span {
+            color: var(--ink-9);
+        }
+    }
+    .duelCol {
+        display: grid;
+        grid-template-columns: 2fr 8fr;
+        column-gap: 40px;
+        align-items: flex-start;
+        position: relative;
+        margin-bottom: 2rem;
+
+        .item {
+            grid-column-start: 2;
+            margin-bottom: .5rem;
+        }
+    }
+    .tripleCol {
+        columns: 3;
+    }
+    .homebutton {
+        color: var(--ink-8);
+        border: 1px solid var(--ink-5);
+        border-radius: 200px;
+        padding: var(--space-s) var(--space-l);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #resume .duelCol {
+      grid-template-columns: 1fr;
+      .item {
+          grid-column-start: initial;
+      }
+    }
+  }

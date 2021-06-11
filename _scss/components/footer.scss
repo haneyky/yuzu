@@ -1,0 +1,38 @@
+footer {
+	max-width: 420px;
+	justify-self: center;
+	font-weight: 400;
+	width: 100%;
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	a {
+		color: var(--ink-6);
+	}
+	a:hover {
+		color: var(--ink-8);
+		text-decoration: underline;
+	}
+	svg {
+		margin: auto auto;
+		fill: var(--ink-5);
+		padding: .5rem;
+	}
+	small {
+		font-size: 1.2rem;
+	}
+
+	a:hover svg {
+		fill: var(--matcha);
+	}
+}
+@media screen and (max-width: 719px) {
+	footer ul {
+		align-content: center;
+		svg {
+			margin: 0 auto;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{% if include.sideBySide == true or include.sideBySide == 'true' %} 
+<figure class="image caption sidebyside">
+    <img src="{{ include.url }}" alt="{{ include.title }}">
+    <figcaption>
+        <p class="arrow bold">↑</p>
+        <div>
+            <p class="bold">{{ include.title }}</p>
+            {% if include.description != nil %} <p>{{ include.description }}</p> {% endif %}
+        </div>
+    </figcaption>
+</figure>
+
+{% else %}
+<figure class="image caption">
+    <img src="{{ include.url }}" alt="{{ include.title }}">
+    <figcaption>
+        <p class="arrow">↑</p>
+        <div>
+            <p class="bold">{{ include.title }}</p>
+            {% if include.description != nil %} <p>{{ include.description }}</p> {% endif %}
+        </div>
+    </figcaption>
+</figure>
+{% endif %}

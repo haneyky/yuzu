@@ -1,0 +1,31 @@
+.teamMember {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    img {
+        border-radius: 50%;
+        background-color: var(--ink-2);
+        height: 32px;
+        width: 32px;
+        margin-right: 1rem;
+    }
+    a {
+        text-decoration: none;
+    }
+    h3 {
+        margin-right: .5rem;
+        color: var(--ink-4);
+        font-weight: 400;
+    }
+    svg {
+        fill: var(--ink-2);
+        transition: 150ms ease-in-out;
+    }
+    &:hover * {
+        fill: var(--matcha);
+        color: var(--matcha);
+    }
+    &:hover svg {
+        transform: translate3d(4px, 1px, 0);
+    }
+}

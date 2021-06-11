@@ -1,0 +1,19 @@
+<div class="flex spaceBetween wrap">
+ <div class="mr4">
+    <p class="subtleHeader">Context</p>
+      <p class="t3">{{ page.context_work }}</p>
+      <p class="t3">{{ page.context_date }}</p>
+  </div>
+  <div class="mr4">
+    <p class="subtleHeader">Contributions</p>
+    {% for contribution in page.contribution %}
+      <p class="t3">{{ contribution.item }}</p>
+    {% endfor %}
+  </div>
+  <div>
+    <p class="subtleHeader">Collaborators</p>
+    {% for collaborator in page.collaborator %}
+      <p class="t3">{{ collaborator.team }}</p>
+    {% endfor %}
+  </div>
+</div>
