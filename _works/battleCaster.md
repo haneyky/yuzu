@@ -18,22 +18,11 @@ slider: true
 ---
 ## Introduction
 
-This is where fine arts and design meets. Featured here are three works that display how illustration design can be applied in the real world. 
+This is where fine arts and design meets. Featured here are three works that display how illustration design can be applied in the real world.
 
 ## Illustrated Desserts
 
 Postcards, stickers, and pinback buttons! These cute dessert illustrations were inspired by a study abroad opportunity in Seoul, South Korea back in Summer of 2019. There is much appreciation for the art of their food, and these are only an example of how tasty and delightful their foods can look.
-
-![starting design](/assets/images/bc-startingdesign.png)
-
-For the new look, we kept the texture paper background. To make the most of the screen and maximize the amount of the battlefield a player can see at any given time, we made elements transparent and pushed them off-screen when not active. We positioned these interactive elements at the bottom of the screen to make it easier to hit with one's fingers.
-
-<div class="simpleGrid">
-<img src="/assets/images/bc_mobileFriends.jpg" alt="first draft">
-<img src="/assets/images/bc_mobileStart.jpg" alt="first draft">
-<img src="/assets/images/bc_battlescreen.jpg" alt="first draft">
-<img src="/assets/images/bc_mobileMenu.jpg" alt="first draft">
-</div>
 
 <div class="splide">
 <div class="splide__track">
