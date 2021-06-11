@@ -28,10 +28,10 @@ Postcards, stickers, and pinback buttons! These cute dessert illustrations were 
 <div class="splide__track">
 <ul class="splide__list">
 <li class="splide__slide">
-<img src="/assets/images/ui_buttons.png" alt="first draft">
+<img src="/assets/images/desserts_postcard.jpg" alt="first draft">
 </li>
 <li class="splide__slide">
-<img src="/assets/images/hp_bar_right.png" alt="second draft">
+<img src="/assets/images/desserts_stickers.gif" alt="second draft">
 </li>
 </ul>
 </div>
