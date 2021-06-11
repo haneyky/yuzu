@@ -1,18 +1,17 @@
 ---
 layout: default
 title: Home
-description: Hello! Nice to meet you, I'm Kevin Feyder a digital designer.
-working_copy: Currently working at [CMD Agency](https://cmdagency.com) previously at [UHDS](https://uhds.oregonstate.edu)
-side_image: /assets/images/ipad.jpg
+description: Hello, my name is Kylie Haney, and I’m a young creative based in Oregon.
+working_copy: Currently working at [CMD Agency](https://cmdagency.com) previously
+  at [UHDS](https://uhds.oregonstate.edu)
+side_image: "/assets/images/ipad.jpg"
 featuredlinks:
-    - link: Email
-      url: mailto:hello@feyder.design
-    - link: Resume
-      url: mailto:hello@feyder.design
+- link: Email
+  url: mailto:hello@feyder.design
+- link: Resume
+  url: mailto:hello@feyder.design
+
 ---
+I design, I dance, and dabble in the fine arts because if there’s anything I love to do, it is to create. As a designer, I look forward to expanding my skills in different areas of design.
 
-
-I like to think big, but I’m pragmatic in my day-to-day work and can take fast decisions on what needs to be done in the short term.
-
-While interface design is the core of my expertise, experience in front-end development and traditional graphic round out my perspective. I have experience managing multi-stakeholder creative processes and am self-motivated but able to adapt to different team structures.
-
+Though I enjoy learning, I do favor specific areas such as branding, video editing, and illustration design.
