@@ -3,7 +3,7 @@ layout: simpleStudy
 title: Illustrated Works
 description: From decorative accessories to needed prints, see how illustrations can
   be useful in items used today.
-cover_image: "/assets/images/battleCaster_thumb.jpg"
+cover_image: "/assets/images/desserts-postcard_featured.jpg"
 post_image: "/assets/images/battleCaster_post.png"
 featured_work: false
 context: Designs include cute desserts, skeletal explorations, and low poly animals.
