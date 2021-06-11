@@ -8,9 +8,8 @@ post_image: "/assets/images/battleCaster_post.png"
 featured_work: false
 context: Designs include cute desserts, skeletal explorations, and low poly animals.
 contribution:
-- item: Interface Design
-- item: User Experience
-- item: Asset Creation
+- item: Print
+- item: Illustration Design
 collaborator: []
 footer: true
 slider: true
