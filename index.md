@@ -7,7 +7,7 @@ working_copy: Currently working at [CMD Agency](https://cmdagency.com) previousl
 side_image: "/assets/images/ipad.jpg"
 featuredlinks:
 - link: Email
-  url: mailto:hello@feyder.design
+  url: Haney.ann.kylie@gmail.com
 - link: Resume
   url: mailto:hello@feyder.design
 
