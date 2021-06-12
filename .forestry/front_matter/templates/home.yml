@@ -1,0 +1,29 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: textarea
+  name: working_copy
+  label: working_copy
+- type: file
+  name: side_image
+  label: side_image
+- type: field_group_list
+  name: featuredlinks
+  label: featuredlinks
+  fields:
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: url
+    label: url
