@@ -13,9 +13,6 @@ fields:
 - type: text
   name: description
   label: description
-- type: textarea
-  name: working_copy
-  label: working_copy
 - type: file
   name: side_image
   label: side_image
