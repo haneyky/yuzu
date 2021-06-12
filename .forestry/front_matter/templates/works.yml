@@ -5,27 +5,28 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: simpleStudy
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: textarea
   name: description
-  label: description
-- type: file
-  name: cover_image
-  label: cover_image
-- type: file
-  name: post_image
-  label: post_image
-- type: boolean
-  name: featured_work
-  label: featured_work
-- type: text
-  name: project_link
-  label: project_link
+  label: Description
 - type: textarea
   name: context
-  label: context
+  label: Context
+- type: file
+  name: cover_image
+  label: Featured Image
+  description: First image you see on the side.
+- type: file
+  name: post_image
+  label: Mobile Image
+  description: Images on phones.
+- type: text
+  name: project_link
+  label: Project Link
 - type: field_group_list
   name: side_image
   label: side_image
@@ -51,5 +52,15 @@ fields:
   label: collaborator
   fields:
   - type: text
-    name: item
-    label: item
+    name: name
+    label: Collaborator Name
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Collaborator Avatar
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Portfolio Link
