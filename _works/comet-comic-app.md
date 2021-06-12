@@ -1,27 +1,30 @@
 ---
 layout: simpleStudy
 title: Comet App
-published: true
-description: Originally a concept design of a comic app posted to Dribbble. Till a handful of developers decided to make it a reality.
+description: Originally a concept design of a comic app posted to Dribbble. Till a
+  handful of developers decided to make it a reality.
 cover_image: "/assets/images/comet_thumb.png"
 post_image: "/assets/images/comet-homescreens.png"
 featured_work: false
 project_link: https://play.google.com/store/apps/details?id=in.co.shivy.comet
-context: I made Comet as a class project. I did the branding, interface and design system. Then worked closely with developers to make it into an app.
+context: I made Comet as a class project. I did the branding, interface and design
+  system. Then worked closely with developers to make it into an app.
 side_image:
-  - image: /assets/images/comet_thumb_alt_1.png
-    trigger: iterations
-    alt: user account settings
-  - image: /assets/images/comet_thumb_alt_2.png
-    trigger: final screens
-    alt: login screen
-contribution: 
-  - item: Interface Design
-  - item: User Experience
-  - item: Branding
+- image: "/assets/images/comet_thumb_alt_1.png"
+  trigger: iterations
+  alt: user account settings
+- image: "/assets/images/comet_thumb_alt_2.png"
+  trigger: final screens
+  alt: login screen
+contribution:
+- item: Interface Design
+- item: User Experience
+- item: Branding
 collaborator:
-  - item: Ajay M
-  - item: Lily Liu
+- item: Ajay M
+- item: Lily Liu
+published: false
+
 ---
 ## The Objective
 For webcomic creators, there is no direct or easy way to help monetize your work while reaching a wide audience. Most online comic reader apps either require payment from the author to access community tools or require subscriptions from the reader before reading the creators' works. I was brought on at the concept and development phase. My role was to create the experience, interface and identity. With my goal to create an **easy to use and appealing interface**.
