@@ -1,0 +1,55 @@
+---
+label: Works
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: cover_image
+  label: cover_image
+- type: file
+  name: post_image
+  label: post_image
+- type: boolean
+  name: featured_work
+  label: featured_work
+- type: text
+  name: project_link
+  label: project_link
+- type: textarea
+  name: context
+  label: context
+- type: field_group_list
+  name: side_image
+  label: side_image
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: trigger
+    label: trigger
+  - type: text
+    name: alt
+    label: alt
+- type: field_group_list
+  name: contribution
+  label: contribution
+  fields:
+  - type: text
+    name: item
+    label: item
+- type: field_group_list
+  name: collaborator
+  label: collaborator
+  fields:
+  - type: text
+    name: item
+    label: item
