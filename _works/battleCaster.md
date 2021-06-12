@@ -13,6 +13,7 @@ contribution:
 collaborator: []
 footer: true
 slider: true
+published: false
 
 ---
 ## Introduction
@@ -32,6 +33,8 @@ Postcards, stickers, and pinback buttons! These cute dessert illustrations were 
 <li class="splide__slide">
 <img src="/assets/images/desserts_stickers.gif" alt="second draft">
 </li>
+
+<li class="splide__slide"> <img src="/assets/images/desserts_stickers.gif" alt="second draft"> </li>
 </ul>
 </div>
 </div>
