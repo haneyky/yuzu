@@ -14,4 +14,4 @@ featuredlinks:
 ---
 I design, I dance, and dabble in the fine arts because if there’s anything I love to do, it is to create. As a designer, I look forward to expanding my skills in different areas of design.
 
-Though I enjoy learning, I do favor specific areas such as branding, video editing, and illustration design. I 
+Though I enjoy learning, I do favor specific areas such as branding, video effects, and illustration design.
