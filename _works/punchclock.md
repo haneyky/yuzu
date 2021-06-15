@@ -3,7 +3,7 @@ layout: simpleStudy
 title: OSU Recreational Sports
 description: Employment as a graphic designer from Oregon State University's Recreational
   Sports.
-cover_image: "/assets/images/recsports_featured-image.jpg"
+cover_image: "/assets/images/recsports_feature.png"
 post_image: ''
 featured_work: false
 role: ''
@@ -40,3 +40,9 @@ Since the rise of COVID-19, a higher demand of social media deliverables needed 
 There are many meetings to be held, and they drive the success for Rec Sports. This set of presentation slides were designed to share the financial history from the previous school year in 2020, and helps determine the next year's budget plan as well as potential sponsorships.
 
 ![](/assets/images/recsports_presenation.jpg)
+
+## Proofing Flowchart
+
+Within our team, we follow a routine that is efficient and understandable for both our clients and ourselves. View the attachment below to see our proofing process.
+
+[Design Needs Flowchart](/assets/images/recsports-prooftodelivery_flowchart.pdf "Design Needs Flowchart")
