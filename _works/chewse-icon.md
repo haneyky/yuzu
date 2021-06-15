@@ -1,32 +1,24 @@
 ---
 layout: simpleStudy
-title: Chewse Icons
-published: true
-description: A catering company serving thousands of hungry teams in 14 cities acrossed the country.
-cover_image: "/assets/images/chewse-thumb.jpg"
-post_image: "/assets/images/chewse-icon.jpg"
+title: Makeup Artist Youtube Intro
+description: An emerging makeup artist's Youtube channel was in need of a quick intro
+  clip.
+cover_image: "/assets/images/margie-zank_featured-image.jpg"
+post_image: ''
 featured_work: false
-context: I was brought on to the project to create new icons for Chewse ordering dashboard.
-contribution: 
-  - item: Illustration
+context: A freelance project to add a transition in between the start of the video
+  to the artist's makeup tutorial.
+contribution:
+- item: Transition Clip
+- item: Video Effect
 slider: false
 footer: true
-color: "#F12018"
+color: ''
+published: false
 
 ---
-I had the pleasure of working with the fine folks at Chewse' in the spring of 2019. [Chewse](https://www.chewse.com/) is an office catering startup based in San Francisco with five other locations across the country. The company's goal is to connect people and serve their communities through food. 
+This rendering of a short introduction clip was created for an emerging makeup artist based in Portland, Oregon. Margie Zank has collaborated with well-known makeup lines such as Lime Crime, Anastasia Beverly Hills, Urban Decay, and more.
 
-I was asked to create a set of icons showing off some of their food selections as well as the portion sizes. These icons would be used in their online dashboard. Making icons is always a fun yet challenging task, working with the Chewse branding was interesting because of the interesting angle and subtle halftone shading.
+Her primary platform as an influencer is Instagram, but new goal is to branch out to other platforms. This introduction clip for her content was to start up a Youtube channel. She wanted something short and sweet, but matched her usual makeup aesthetic. She required no audio and wanted purely her name as she thought she was not big enough in the makeup community to brand herself with a logo.
 
-<div class="simpleGrid">
-  <img src="{{site.url}}/assets/images/chewse-fruit.jpg" alt="fruit icon">
-  <img src="{{site.url}}/assets/images/chewse-meat.jpg" alt="meat icon">
-  <img src="{{site.url}}/assets/images/chewse-melon.jpg" alt="melon icon">
-  <img src="{{site.url}}/assets/images/chewse-rice.jpg" alt="rice icon">
-  <img src="{{site.url}}/assets/images/chewse-riceball.jpg" alt="riceball icon">
-  <img src="{{site.url}}/assets/images/chewse-salad.jpg" alt="salad icon">
-  <img src="{{site.url}}/assets/images/chewse-mac.jpg" alt="mac icon">
-  <img src="{{site.url}}/assets/images/chewse-sm-size.jpg" alt="small size icon">
-  <img src="{{site.url}}/assets/images/chewse-md-size.jpg" alt="medium size icon">
-</div>
-
+![](/assets/images/margie-zank_intro.gif)
