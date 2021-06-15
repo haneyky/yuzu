@@ -4,20 +4,17 @@ title: Illustrated Works
 description: From decorative accessories to needed prints, see how illustrations can
   be useful in items used today.
 cover_image: "/assets/images/desserts-postcard_featured.jpg"
-post_image: "/assets/images/battleCaster_post.png"
+post_image: ''
 featured_work: false
 context: Designs include cute desserts, skeletal explorations, and low poly animals.
 contribution:
-- item: Print
 - item: Illustration Design
+- item: Print
 collaborator: []
 footer: true
 slider: true
-published: false
 
 ---
-## Introduction
-
 This is where fine arts and design meets. Featured here are three works that display how illustration design can be applied in the real world.
 
 ## Illustrated Desserts
@@ -34,25 +31,19 @@ Postcards, stickers, and pinback buttons! These cute dessert illustrations were 
 <img src="/assets/images/desserts_stickers.gif" alt="second draft">
 </li>
 
-<li class="splide__slide"> <img src="/assets/images/desserts_stickers.gif" alt="second draft"> </li>
+<li class="splide__slide"> <img src="/assets/images/desserts_badges.jpg" alt="second draft"> </li>
 </ul>
 </div>
 </div>
 
-We used transparency and light to make the interface look more open and indicate information. To make sure that text would still be readable even on a light background we used subtle drop shadows and a slight blur effect along with a generous text-shadow.
+## Anatomy Studies
 
-## Cards
+The goal with this project was to give a new edge to anatomy books. With drawings of anatomy rather than computerized graphics, it personalizes the informational text from being too systematic and more distinctive.
 
-While not in the initial brief. The design team felt that the current card design did not match the new UI assets and was not very legible when shrunk down to fit on the iPhone.
+![](/assets/images/anatomy-studies_mockup.jpg)
 
-![card designs](/assets/images/bc_cards.png)
+## Low Poly Animals
 
-Some of the biggest changes were cleaning up the card shape and remove the textured background. To make the text more legible, we also bumped up the font size and removed unnecessary elements such as flavor text and artist description. Instead, those elements moved to the deck builder page. The team also moved the damage amount to the upper left to increase visibility.
+Lastly featured are key chains with low poly illustrations of a sea turtle, jewel beetle, and koi fish. Abstractions of recognizable creatures are not only fun, but exciting to distinguish. Low poly graphics utilize perspective and light to help encourage a three-dimensional effect to these imagined animals.
 
-![card infomation](/assets/images/bc_cardInfo.jpg)
-
-## Symbols
-
-The last component of the card we changed was the element symbols. The original symbols were more artistry rendered but did not scale well when smaller than 32px. Therefore a team member came up with a simpler flatter, more scalable symbol.
-
-![element symbols](/assets/images/bc_symbols.png)
+![](/assets/images/low-poly-keychain.jpg)
