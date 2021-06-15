@@ -3,7 +3,7 @@ layout: simpleStudy
 title: Antheia Flowers
 description: An imagined rebrand for an existing floral/lifestyle shop called Antheia
   Flowers.
-cover_image: "/assets/images/comet_thumb.png"
+cover_image: "/assets/images/antheia-flowers_featured.jpg"
 post_image: ''
 featured_work: false
 project_link: https://play.google.com/store/apps/details?id=in.co.shivy.comet
@@ -52,12 +52,20 @@ Influenced by all that the Greek goddess embodies, this is a moodboard that help
 
 There is something warm and inviting from this collection of images. As much as I wanted to use the warm tones from what I compiled, the vibrancy of peachy and golden colors meant it would easily clash with the flowers and plants branded with them. As a result, the primary color in the palette is an olive green with the secondary adding the warm touch needed. Green is natural and versatile in its use which I thought could be a more efficient and flexible fit. As a last touch, typography balances sophistication with approachability by using both Gravesend Sans and Avenir in the brand. system.
 
-<div class="simpleGrid"> <img src="/assets/images/antheia-flowers_color.png" alt=_comet icon"> {% include caption.html url="/assets/images/comet-icon.png" title="previous icon design" %} </div> <figure> <img src="/assets/images/antheia-flowers_type.png" alt="_comet icon"> </figure>
+<div class="simpleGrid"> <img src="/assets/images/antheia-flowers_color.png">  </div> <figure> <img src="/assets/images/antheia-flowers_type.png"> </figure>
+
+{% include caption.html sideBySide=true url="/assets/images/antheia-flowers_color.png" %}
+
+{% include caption.html sideBySide=true url="/assets/images/antheia-flowers_type.png" %}
 
 ## Applying the brand.
 
 Simplifying the interface was a key goal in this project. To achieve this, I flattened and combined pages to reduce the use of the back button.
 
-<div class="simpleGrid"> <img src="/assets/images/antheia-flowers_terrarium.jpg"_alt="Antheia Flowers terrarium"> </div> <figure> </assets/images/antheia-flowers_tag.jpg"_> </figure>
+<div class="simpleGrid">
+
+<img src="/assets/images/antheia-flowers_terrarium.jpg"_alt="Antheia Flowers terrarium"> </div>_
+
+_<figure> </assets/images/antheia-flowers_tag.jpg"_> </figure>
 
 ![](/assets/images/antheia-flowers_stationary.jpg)
