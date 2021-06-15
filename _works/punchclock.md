@@ -15,7 +15,6 @@ contribution:
 - item: Social Media Marketing
 footer: true
 slider: true
-published: false
 
 ---
 As a graphic designer at Oregon State University's Recreational Sports, there's only one thing that mattered: GO BEAVS! This includes following strict university brand guidelines, concentrating on optimum legibility, and utilizing the well-known orange, black and white color trio.
