@@ -14,7 +14,6 @@ contribution:
 slider: false
 footer: true
 color: ''
-published: false
 
 ---
 This rendering of a short introduction clip was created for an emerging makeup artist based in Portland, Oregon. Margie Zank has collaborated with well-known makeup lines such as Lime Crime, Anastasia Beverly Hills, Urban Decay, and more.
