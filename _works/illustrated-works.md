@@ -3,7 +3,7 @@ layout: simpleStudy
 title: Illustrated Works
 description: From decorative accessories to needed prints, see how illustrations can
   be useful in items used today.
-cover_image: "/assets/images/illustrations_featured.gif"
+cover_image: "/assets/images/desserts-postcard_featured.gif"
 post_image: ''
 featured_work: false
 project_link: ''
