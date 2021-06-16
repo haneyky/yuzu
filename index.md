@@ -4,10 +4,10 @@ title: Home
 description: Hello, my name is Kylie Haney, and I’m a young creative based in Oregon.
 working_copy: Currently working at [CMD Agency](https://cmdagency.com) previously
   at [UHDS](https://uhds.oregonstate.edu)
-side_image: "/assets/images/home_featured-image.jpg"
+side_image: "/assets/images/ipad.jpg"
 featuredlinks:
 - link: Email
-  url: Haney.ann.kylie@gmail.com
+  url: mailto:haney.ann.kylie@gmail.com
 - link: Resume
   url: "/assets/images/haney-kylie_resume.pdf"
 
