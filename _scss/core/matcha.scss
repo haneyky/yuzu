@@ -5,7 +5,10 @@ html, body, main {
     scroll-behavior: smooth;
     width: 100%;
 }
-
+body {
+  background-image: url(assets/Noise-Background.jpg);
+  background-repeat:repeat;
+}
 #mobileCover {
   width: 100%;
   min-height: 400px;
