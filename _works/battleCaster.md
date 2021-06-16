@@ -1,9 +1,9 @@
 ---
 layout: simpleStudy
-title: Illustrated Works
+title: Illustrated Works (draft)
 description: From decorative accessories to needed prints, see how illustrations can
   be useful in items used today.
-cover_image: "/assets/images/desserts-postcard_featured.jpg"
+cover_image: "/assets/images/illustrations_featured.gif"
 post_image: ''
 featured_work: false
 context: Designs include cute desserts, skeletal explorations, and low poly animals.
@@ -13,6 +13,7 @@ contribution:
 collaborator: []
 footer: true
 slider: true
+published: false
 
 ---
 This is where fine arts and design meets. Featured here are three works that display how illustration design can be applied in the real world.
