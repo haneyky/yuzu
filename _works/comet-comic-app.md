@@ -53,7 +53,7 @@ Influenced by all that the Greek goddess embodies, this is a moodboard that help
 
 ![](/assets/images/antheia-flowers_moodboard.jpg)
 
-There is something warm and inviting from this collection of images. As much as I wanted to use the warm tones from what I compiled, the vibrancy of peachy and golden colors meant it would easily clash with the flowers and plants branded with them. As a result, the primary color in the palette is an olive green with the secondary adding the warm touch needed. Green is natural and versatile in its use which I thought could be a more efficient and flexible fit. As a last touch, typography balances sophistication with approachability by using both Gravesend Sans and Avenir in the brand. system.
+There is something warm and inviting from this collection of images. As much as I wanted to use the warm tones from what I compiled, the vibrancy of peachy and golden colors meant it would easily clash with the flowers and plants branded with them. As a result, the primary color in the palette is an olive green with the secondary adding the warm touch needed. Green is natural and versatile in its use which I thought could be a more efficient and flexible fit. As a last touch, typography balances sophistication with approachability by using both Gravesend Sans and Avenir in the brand system.
 
 ![](/assets/images/antheia-flowers_color.png)![](/assets/images/antheia-flowers_type.png)
 
