@@ -15,6 +15,7 @@ contribution:
 collaborator: []
 footer: true
 slider: true
+published: false
 
 ---
 **CROSS Dance Lab** is a newly imagined dance studio that acts as the intersection point for dancers of all backgrounds.
@@ -28,8 +29,6 @@ Logo design visualizes crossing paths and passing through an intersecting point 
 ## Brand Guidelines
 
 For the brand system, the goal was to be simple and inclusive. With the primary brand colors only containing an off-black, white, and lightened-red, it gives the brand flexibility of its image. Typography uses the typeface for similar reasons.
-
-    <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=h9qx0wlk9s" width="100%" height="480" seamless="seamless" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
 
 ## Website Prototype
 
