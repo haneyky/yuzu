@@ -1,50 +1,51 @@
 ---
 layout: simpleStudy
-title: Illustrated Works (draft)
-description: From decorative accessories to needed prints, see how illustrations can
-  be useful in items used today.
-cover_image: "/assets/images/illustrations_featured.gif"
+title: CROSS Dance Lab
+description: 'A newly imagined dance studio that acts as the intersection point for
+  dancers of all backgrounds. A place that values inclusivity and acceptance in dancers’
+  identities, skills, and commitment. '
+cover_image: "/assets/images/cross_featured-image.jpg"
 post_image: ''
 featured_work: false
-context: Designs include cute desserts, skeletal explorations, and low poly animals.
+context: Take a sneak peek to check out the branding system, website, and social.
 contribution:
-- item: Illustration Design
-- item: Print
+- item: Brand System
+- item: Website Design
+- item: Product Design
+- item: Social Media Materials
 collaborator: []
 footer: true
 slider: true
-published: false
 
 ---
-This is where fine arts and design meets. Featured here are three works that display how illustration design can be applied in the real world.
+**CROSS Dance Lab** is a newly imagined dance studio that acts as the intersection point for dancers of all backgrounds.
 
-## Illustrated Desserts
+## Logo Design
 
-Postcards, stickers, and pinback buttons! These cute dessert illustrations were inspired by a study abroad opportunity in Seoul, South Korea back in Summer of 2019. There is much appreciation for the art of their food, and these are only an example of how tasty and delightful their foods can look.
+Logo design visualizes crossing paths and passing through an intersecting point in our experience as dancers. A logo that is versatile and clean its application.
 
-<div class="splide">
-<div class="splide__track">
-<ul class="splide__list">
-<li class="splide__slide">
-<img src="/assets/images/desserts_postcard.jpg" alt="first draft">
-</li>
-<li class="splide__slide">
-<img src="/assets/images/desserts_stickers.gif" alt="second draft">
-</li>
+![](/assets/images/cross-logo.gif)
 
-<li class="splide__slide"> <img src="/assets/images/desserts_badges.jpg" alt="second draft"> </li>
-</ul>
-</div>
-</div>
+## Brand Guidelines
 
-## Anatomy Studies
+For the brand system, the goal was to be simple and inclusive. With the primary brand colors only containing an off-black, white, and lightened-red, it gives the brand flexibility of its image. Typography uses the typeface for similar reasons.
 
-The goal with this project was to give a new edge to anatomy books. With drawings of anatomy rather than computerized graphics, it personalizes the informational text from being too systematic and more distinctive.
+<iframe src="[https://cdn.flipsnack.com/widget/v2/widget.html?hash=h9qx0wlk9s](https://cdn.flipsnack.com/widget/v2/widget.html?hash=h9qx0wlk9s "https://cdn.flipsnack.com/widget/v2/widget.html?hash=h9qx0wlk9s")" width="100%" height="480" seamless="seamless" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
 
-![](/assets/images/anatomy-studies_mockup.jpg)
+## Website Prototype
 
-## Low Poly Animals
+There are three attributes I stayed conscious of when designing this site, it needed to be accessible, friendly, and work with a lot of negative space. In UI/UX design, it is vital to think about how the user navigates throughout your design. Tell the story how you want them to see and avoid confusion at all costs by clear language, imagery, and navigation.
 
-Lastly featured are key chains with low poly illustrations of a sea turtle, jewel beetle, and koi fish. Abstractions of recognizable creatures are not only fun, but exciting to distinguish. Low poly graphics utilize perspective and light to help encourage a three-dimensional effect to these imagined animals.
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/3RahsDMgUAY](https://www.youtube.com/embed/3RahsDMgUAY "https://www.youtube.com/embed/3RahsDMgUAY")&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![](/assets/images/low-poly-keychain.jpg)
+## Merchandise
+
+Branded products with a simple logo are not only trendy, but universal too. These shirts and accessories are meant to be subtle with their branding, and yet, still look cool to own. It encourages dancers to be a part of one community and feel they are in it too.
+
+![](/assets/images/cross_merch.gif)
+
+## Instagram Advertisements
+
+Social media presence is a part of this new day and age. **Cross Dance Lab** makes an effort in promoting the studio, and post choreography videos for potential followers to love and watch.
+
+![](/assets/images/cross_social-ad.gif)
