@@ -2,8 +2,8 @@
 layout: simpleStudy
 title: CROSS Dance Lab
 description: 'A newly imagined dance studio that acts as the intersection point for
-  dancers of all backgrounds. A place that values inclusivity and acceptance in a
-  dancer''s identity, skills, and commitment. '
+  dancers of all backgrounds. A place that values inclusivity and acceptance in dancers''
+  identities, skills, and commitment. '
 cover_image: "/assets/images/cross_featured-image.jpg"
 post_image: ''
 featured_work: false
