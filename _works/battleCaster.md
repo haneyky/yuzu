@@ -15,7 +15,6 @@ contribution:
 collaborator: []
 footer: true
 slider: true
-published: false
 
 ---
 **CROSS Dance Lab** is a newly imagined dance studio that acts as the intersection point for dancers of all backgrounds.
@@ -36,7 +35,7 @@ For the brand system, the goal was to be simple and inclusive. With the primary 
 
 There are three attributes I stayed conscious of when designing this site, it needed to be accessible, friendly, and work with a lot of negative space. In UI/UX design, it is vital to think about how the user navigates throughout your design. Tell the story how you want them to see and avoid confusion at all costs by clear language, imagery, and navigation.
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/3RahsDMgUAY&autoplay=1](https://www.youtube.com/embed/3RahsDMgUAY&autoplay=1 "https://www.youtube.com/embed/3RahsDMgUAY&autoplay=1")" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[cross-dance-lab_website-design.mp4](/assets/images/cross-dance-lab_website-design.mp4 "cross-dance-lab_website-design.mp4")
 
 ## Merchandise
 
