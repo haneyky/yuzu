@@ -35,7 +35,7 @@ For the brand system, the goal was to be simple and inclusive. With the primary 
 
 There are three attributes I stayed conscious of when designing this site, it needed to be accessible, friendly, and work with a lot of negative space. In UI/UX design, it is vital to think about how the user navigates throughout your design. Tell the story how you want them to see and avoid confusion at all costs by clear language, imagery, and navigation.
 
-**View** [**prototype of website**](/assets/images/cross-dance-lab_website-design.mp4 "Prototype") **design.**
+View [**prototype of website**](/assets/images/cross-dance-lab_website-design.mp4 "Prototype") design.
 
 ## Merchandise
 
@@ -45,6 +45,6 @@ Branded products with a simple logo are not only trendy, but universal too. Thes
 
 ## Instagram Advertisements
 
-Social media presence is a part of this new day and age. **Cross Dance Lab** makes an effort in promoting the studio, and post choreography videos for potential followers to love and watch.
+Social media presence is a part of this new day and age.  **Cross Dance Lab** makes an effort in promoting the studio, and post choreography videos for potential followers to love and watch.
 
 ![](/assets/images/cross_social-ad.gif)
