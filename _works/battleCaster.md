@@ -21,7 +21,9 @@ slider: true
 
 ## Logo Design
 
-Logo design visualizes crossing paths and passing through an intersecting point in our experience as dancers. A logo that is versatile and clean its application.![](/assets/images/cross-logo.gif)![](/assets/images/cross-logo.gif)
+Logo design visualizes crossing paths and passing through an intersecting point in our experience as dancers. A logo that is versatile and clean its application.
+
+![](/assets/images/cross-logo.gif)
 
 ## Brand Guidelines
 
