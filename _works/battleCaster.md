@@ -15,6 +15,7 @@ contribution:
 collaborator: []
 footer: true
 slider: true
+published: false
 
 ---
 **CROSS Dance Lab** is a newly imagined dance studio that acts as the intersection point for dancers of all backgrounds.
