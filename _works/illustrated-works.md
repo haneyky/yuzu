@@ -8,16 +8,7 @@ post_image: ''
 featured_work: false
 project_link: ''
 context: Designs include cute desserts, skeletal explorations, and low poly animals.
-side_image:
-- image: "/assets/images/desserts-postcard_featured.jpg"
-  trigger: Illustrated Desserts
-  alt: ''
-- image: "/assets/images/anatomy_featured.jpg"
-  trigger: Anatomy Studies
-  alt: ''
-- image: "/assets/images/low-poly_featured.jpg"
-  trigger: Low Poly Animals
-  alt: ''
+side_image: []
 contribution:
 - item: Illustration Design
 - item: Print
