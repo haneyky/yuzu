@@ -45,4 +45,4 @@ There are many meetings to be held, and they drive the success for Rec Sports. T
 
 Within our team, we follow a routine that is efficient and understandable for both our clients and ourselves. View the attachment below to see our proofing process.
 
-[Design Needs Flowchart](/assets/images/recsports-prooftodelivery_flowchart.pdf "Design Needs Flowchart")
+[**Design Needs Flowchart**](/assets/images/recsports-prooftodelivery_flowchart.pdf "Design Needs Flowchart")
