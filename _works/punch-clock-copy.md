@@ -15,7 +15,6 @@ contribution:
 - item: Development
 footer: true
 slider: true
-published: false
 
 ---
 Punch Clock is a simple time tracker that is hyper-focused on two core features: recording time and calculating an hourly wage. That’s it, no extra features, no hidden cost, no login required. The web app simply saves your task and hourly rate to your computer so there is no need to keep your browser open just click start and come back when you’re done.
